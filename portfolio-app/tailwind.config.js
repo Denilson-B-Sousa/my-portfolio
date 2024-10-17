@@ -48,13 +48,16 @@ export default {
       ShadowsIntoLightTwo: "Shadows Into Light Two"
     },
     screens: {
-      sm: "640px",
+
+      mobile: "640px",
 
       md: "768px",
 
       lg: "1024px",
 
-      xl: "1280px",
+      laptop: "1366px",
+
+      desktop: "1440px"
     },
 
   },
