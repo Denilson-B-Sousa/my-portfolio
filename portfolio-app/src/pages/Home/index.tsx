@@ -1,10 +1,11 @@
-import { Header } from "../../components/header";
+import { Hero } from "@components/hero";
+import { Header } from "@components/header";
 
 export function Home() {
   return (
-    <main className="max-w-[90vw] m-auto">
-      <Header/>
-      
+    <main className="m-auto grid place-items-center">
+      <Header />
+      <Hero />
     </main>
-  )
+  );
 }
