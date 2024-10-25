@@ -4,9 +4,9 @@ import { Sun } from "@phosphor-icons/react";
 
 export function Header() {
   return (
-    <header className="grid grid-cols-3 justify-end p-10 items-center">
+    <header className="grid grid-cols-3 laptop:w-[75rem] justify-between pt-12 pb-4 ">
       <div className="col-span-2 laptop:col-span-1">
-        <h1 className="text-2xl laptop:text-3xl font-ShadowsIntoLight text-white">
+        <h1 className="text-2xl laptop:text-4xl font-ShadowsIntoLight text-white">
           <NavLink to="/">Denilson B. Sousa</NavLink>
         </h1>
       </div>

@@ -5,7 +5,7 @@ import { TypeAnimationWriter } from "@components/type";
 
 export function Hero() {
   return (
-    <section className="grid grid-cols-1 laptop:grid-cols-2 items-center place-items-end">
+    <section className="grid grid-cols-1 laptop:grid-cols-2 items-center place-items-center ">
       <div className="font-Poppins text-white max-w-[22rem] m-auto laptop:max-w-[37.5rem] laptop:w-[37.5rem]">
         <span className="text-green-900 uppercase tracking-widest">
           Web Developer

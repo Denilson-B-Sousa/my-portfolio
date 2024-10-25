@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Furniro móveis",
+      "description": "Aplicação desenvolvida durante a realização do programa de bolsas trilha Front-end Development (React) - AWS Cloud Context da empresa Compass.uol. Tecnologias utilizadas: React + Vite + Typescript, S3 - Simple Storage Service da AWS para armazenamento de imagens e EC2 - Elastic Cloud Computer da AWS para criação de instância para aplicação ",
+      "imageUrl": "../src/assets/furniro.png",
+      "repositoryUrl": "https://github.com/Denilson-B-Sousa/furniro-frontend",
+      "liveUrl": "https://nlw-expert-react.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Compass Video Streaming",
+      "description": "Aplicação desenvolvida durante a realização do programa de bolsas trilha Front-end Development (React) - AWS Cloud Context da empresa Compass.uol",
+      "imageUrl": "../src/assets/compass-video.png",
+      "repositoryUrl": "https://github.com/Denilson-B-Sousa/compass-video-frontend",
+      "liveUrl": "https://nlw-expert-react.vercel.app/"
+    },
+    {
+      "id": 3,
+      "title": "Centro de resgate",
+      "description": "Aplicação desenvolvida durante a realização do programa de bolsas trilha Front-end Development (React) - AWS Cloud Context da empresa Compass.uol",
+      "imageUrl": "../src/assets/rescue-center.png",
+      "repositoryUrl": "https://github.com/Denilson-B-Sousa/rescue-center-frontend",
+      "liveUrl": "https://nlw-expert-react.vercel.app/"
+    },
+    {
+      "id": 4,
+      "title": "Notes: Aplicação para criação de notas",
+      "description": "Aplicação desenvolvida durante o NLW Experts da empresa Rocketseat utilizando React, TypeScript, Tailwind e a SpeechRecognition API.",
+      "imageUrl": "../src/assets/notes.png",
+      "repositoryUrl": "https://github.com/Denilson-B-Sousa/nlw-expert-react",
+      "liveUrl": "https://nlw-expert-react.vercel.app/"
+    },
+    {
+      "id": 5,
+      "title": "Ignite Call: Aplicação para agendamentos",
+      "description": "Aplicação desenvolvida durante evento da empresa Rocketseat utilizando React, TypeScript, Tailwind.",
+      "imageUrl": "../src/assets/ignite-call.png",
+      "repositoryUrl": "https://github.com/Denilson-B-Sousa/nlw-expert-react",
+      "liveUrl": "https://06-ignite-call.vercel.app/"
+    }
+
+  ]
+}
