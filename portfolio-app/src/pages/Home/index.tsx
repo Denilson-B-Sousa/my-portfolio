@@ -1,6 +1,7 @@
 import { Hero } from "@components/hero";
 import { Header } from "@components/header";
 import { Project } from "@components/project";
+import { Footer } from "@components/footer";
 
 export function Home() {
   return (
@@ -8,6 +9,7 @@ export function Home() {
       <Header />
       <Hero />
       <Project/>
+      <Footer/>
     </main>
   );
 }
