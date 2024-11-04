@@ -2,6 +2,7 @@ import { GithubLogo, ReadCvLogo } from "@phosphor-icons/react";
 
 import programming from '@assets/programming.svg';
 import { TypeAnimationWriter } from "@components/type";
+import { NavLink } from "react-router-dom";
 
 export function Hero() {
   return (
@@ -19,14 +20,14 @@ export function Hero() {
         </p>
 
         <div className="flex gap-6 pt-2">
-          <a
-            href="https://github.com/Denilson-B-Sousa"
+          <NavLink 
+            to="view"
             target="_blank"
             className="inline-flex items-center gap-4 bg-purple-800 py-6 px-5 laptop:px-10 rounded-md hover:shadow-lg hover:shadow-purple-900/40 font-semibold hover:scale-105 transition-all duration-150 uppercase tracking-widest"
           >
             <ReadCvLogo width={24} height={24} />
             <span>Resume</span>
-          </a>
+          </NavLink>
           <a
             href="https://www.linkedin.com/in/denilson-bezerra-de-sousa-38b964257/"
             target="_blank"

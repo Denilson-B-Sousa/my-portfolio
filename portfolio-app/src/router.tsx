@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/home";
+import { PdfViewer } from "@pages/pdf-viewer";
 
 export function Router() {
   return (
@@ -9,6 +10,14 @@ export function Router() {
         element={
           <>
             <Home/>
+          </>
+        }
+      />
+      <Route
+        path="view"
+        element={
+          <>
+            <PdfViewer/>
           </>
         }
       />
