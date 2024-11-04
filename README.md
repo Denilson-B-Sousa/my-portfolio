@@ -5,8 +5,10 @@
 # Portfólio 
 ## Visão Geral
 
-O portfólio é uma aplicação desenvolvida para oferecer informações detalhadas sobre os projetos front-end que desenvolvidos por mim.
-Foi desenvolvida uma interface amigável e intuitiva com recursos interativos para melhorar a experiência do usuário.
+O portfólio é uma aplicação projetada para fornecer informações detalhadas sobre os projetos de front-end que desenvolvi. 
+Com uma interface amigável e intuitiva, a aplicação incorpora recursos interativos que visam aprimorar a experiência do usuário, facilitando a navegação e a descoberta dos meus trabalhos.
+
+
 
 
 ![hero-portfolio](https://github.com/user-attachments/assets/2d99adaa-9307-4ac5-b7f4-6aadccb3ae92)
