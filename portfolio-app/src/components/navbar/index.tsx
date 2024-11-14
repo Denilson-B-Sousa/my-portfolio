@@ -2,7 +2,6 @@ import {  List, Sun } from "@phosphor-icons/react";
 import { NavItem } from "../navlink";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 
-
 export function Navbar() {
   return (
     <nav className="inline-flex justify-end ">

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export function Footer() {
   return (
-    <footer className="flex items-center justify-between w-[82vw] py-8 text-light-400 font-Poppins">
+    <footer className="flex items-center justify-between w-[82vw] py-8 text-gray-600 dark:text-light-400 font-Poppins">
       <div>
         <span className="font-semibold">
           <NavLink to={"/"}>© Denilson B. Sousa - 2024</NavLink>

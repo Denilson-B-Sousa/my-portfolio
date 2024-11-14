@@ -29,15 +29,19 @@ export function Modal({
   return (
     <Dialog.Portal>
       <Dialog.DialogOverlay className="inset-0 fixed bg-black/90 md:bg-black/90" />
-      <Dialog.Content className="laptop:flex laptop:flex-row fixed overflow-hidden p-8 inset-0 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:max-w-[640px] laptop:max-w-[75vw] laptop:max-h-[90vh] w-full h-full  md:rounded-md bg-gray-600 my-6 outline-none">
+      <Dialog.Content className="laptop:flex laptop:flex-row fixed overflow-hidden p-8 inset-0 md:inset-auto md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:max-w-[640px] laptop:max-w-[75vw] laptop:max-h-[90vh] w-full h-full  md:rounded-md bg-primary dark:bg-gray-600  my-6 outline-none">
         <ScrollArea.Root className="w-[100%] h-[100%] overflow-hidden m-auto">
           <ScrollArea.Viewport className="w-full h-full relative">
-            <DialogClose className="absolute right-0 top-0 z-10 hover:text-light-400 text-light-600 focus-visible:ring-2 focus-visible:ring-green-900 outline-none rounded-md">
+            <DialogClose className="absolute right-0 top-0 z-10 text-gray-600 hover:text-gray-600/40 dark:hover:text-light-400 dark:text-light-600 focus-visible:ring-2 focus-visible:ring-green-900 outline-none rounded-md">
               <X width={24} height={24} />
             </DialogClose>
             <div className="flex mobile:hidden gap-4">
               <button className="" title="Anterior" aria-label="Previous">
-                <CaretLeft width={24} height={24} color="white" />
+                <CaretLeft
+                  width={24}
+                  height={24}
+                  className="dark:text-white text-gray-600"
+                />
               </button>
               <button className=" " title="Próximo" aria-label="Next">
                 <CaretRight width={24} height={24} color="white" />
@@ -53,28 +57,38 @@ export function Modal({
                 />
                 <div className="hidden laptop:flex gap-4 w-[4rem]">
                   <button className="" title="Anterior" aria-label="Previous">
-                    <CaretLeft width={24} height={24} color="white" />
+                    <CaretLeft
+                      width={24}
+                      height={24}
+                      className="text-gray-600 dark:text-primary"
+                    />
                   </button>
                   <button className=" " title="Próximo" aria-label="Next">
-                    <CaretRight width={24} height={24} color="white" />
+                    <CaretRight
+                      width={24}
+                      height={24}
+                      className="text-gray-600 dark:text-primary"
+                    />
                   </button>
                 </div>
-                <h4 className="text-3xl font-semibold text-primary">{title}</h4>
+                <h4 className="text-3xl font-semibold text-gray-600 dark:text-primary ">
+                  {title}
+                </h4>
                 <div className="text-base leading-6">
-                  <div className="p-2 px-4 border-l-[0.5px] text-primary  border-purple-500 font-Poppins font-normal text-sm  laptop:flex">
+                  <div className="p-2 px-4 border-l-[0.5px] text-gray-600 dark:text-primary   border-purple-500 font-Poppins font-normal text-sm  laptop:flex">
                     <p>{description}</p>
                   </div>
                 </div>
                 <div className="inline-flex gap-4">
                   <Tags />
                 </div>
-                <div className="font-extralight text-xs text-primary">
+                <div className="font-extralight text-xs text-gray-600 dark:text-primary">
                   JAN 23 · 2024
                 </div>
                 <a
                   href={repositoryUrl}
                   target="_blank"
-                  className="laptop:hidden inline-flex items-center justify-between  w-full p-4 laptop:p-2 rounded-md bg-white text-black uppercase mt-6 mb-2 focus-visible:ring-4 focus-visible:ring-green-900 outline-none"
+                  className="laptop:hidden inline-flex items-center justify-between  w-full p-4 laptop:p-2 rounded-md bg-light-gray dark:bg-white text-gray-600 dark:text-primary uppercase mt-6 mb-2 focus-visible:ring-4 focus-visible:ring-green-900 outline-none"
                 >
                   <GithubLogo width={24} height={24} />
                   Repo
@@ -83,7 +97,7 @@ export function Modal({
                 <a
                   href={liveUrl}
                   target="_blank"
-                  className="laptop:hidden inline-flex items-center justify-between w-full p-4 laptop:p-2 rounded-md bg-white text-black uppercase mt-2 focus-visible:ring-4 focus-visible:ring-green-900 outline-none"
+                  className="laptop:hidden inline-flex items-center justify-between w-full p-4 laptop:p-2 rounded-md uppercase mt-2 focus-visible:ring-4 focus-visible:ring-green-900 outline-none"
                 >
                   <Globe width={24} height={24} />
                   Live
@@ -95,7 +109,7 @@ export function Modal({
               </div>
               <div className="border-r-[1px] border-purple-500 hidden laptop:flex"></div>
               <div className="hidden laptop:flex laptop:flex-col laptop:gap-12">
-                <div className="border-[1px] border-purple-500 text-light-500 rounded-xl p-4">
+                <div className="border-[1px] border-purple-500 text-gray-600 dark:text-primary rounded-xl p-4">
                   <h4 className="text-xl font-semibold">Aprendizados:</h4>
                   <ul className="inline-flex flex-col list-inside list-disc font-Poppins font-light text-sm mt-2">
                     <li>Configuração Tailwindcss</li>
@@ -103,7 +117,7 @@ export function Modal({
                     <li>Acessibilidade com outline</li>
                   </ul>
                 </div>
-                <div className="hidden laptop:flex laptop:flex-col border-[0.5px] text-light-500  border-purple-500 rounded-xl p-4 laptop:h-[13.6rem]">
+                <div className="hidden laptop:flex laptop:flex-col border-[0.5px] text-gray-600 dark:text-primary  border-purple-500 rounded-xl p-4 laptop:h-[13.6rem]">
                   <h4 className="text-xl font-semibold ">Links Importantes:</h4>
                   <a
                     href={repositoryUrl}

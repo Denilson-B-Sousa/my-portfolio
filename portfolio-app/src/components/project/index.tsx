@@ -11,7 +11,7 @@ export function Project() {
         <span className="text-green-900 text-base font-MontSerrat font-light line uppercase tracking-widest">
           Projetos
         </span>
-        <h3 className="text-light-400 text-4xl font-Poppins font-semibold">
+        <h3 className="text-gray-600 dark:text-light-400  text-4xl font-Poppins font-semibold">
           Meus projetos!
         </h3>
       </div>
