@@ -1,4 +1,4 @@
-import { GithubLogo, ReadCvLogo } from "@phosphor-icons/react";
+import { LinkedinLogo, ReadCvLogo } from "@phosphor-icons/react";
 
 import programming from '@assets/programming.svg';
 import { TypeAnimationWriter } from "@components/type";
@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 
 export function Hero() {
   return (
-    <section className="grid grid-cols-1 laptop:grid-cols-2 items-center place-items-center pt-8">
-      <div className="font-Poppins text-gray-600 dark:text-white max-w-[22rem] m-auto laptop:max-w-[36.5rem] laptop:w-[37.5rem]">
+    <section className="grid grid-cols-1 laptop:grid-cols-2 place-items-center gap-16 mx-auto lg:max-w-6xl xl:max-w-7xl my-12">
+      <div className="font-Poppins text-gray-600 dark:text-white mx-auto lg:max-w-6xl xl:max-w-7xl">
         <span className="text-green-900 uppercase tracking-widest">
           Web Developer
         </span>
@@ -24,7 +24,6 @@ export function Hero() {
         <div className="flex gap-6 pt-2">
           <NavLink
             to="view"
-            target="_blank"
             className="text-white inline-flex items-center gap-4 bg-purple-800 py-6 px-5 laptop:px-10 rounded-md hover:shadow-lg hover:shadow-purple-900/40 font-semibold hover:scale-105 transition-all duration-150 uppercase tracking-widest"
           >
             <ReadCvLogo width={24} height={24} />
@@ -35,8 +34,8 @@ export function Hero() {
             target="_blank"
             className="text-white inline-flex items-center gap-4 py-6 px-5 laptop:px-10 rounded-md bg-light-gray hover:shadow-lg hover:bg-purple-800 hover:shadow-purple-900/40 font-semibold hover:scale-105 transition-all duration-150 uppercase tracking-widest"
           >
-            <GithubLogo width={24} height={24} />
-            <span>Github</span>
+            <LinkedinLogo width={24} height={24} />
+            <span>Linkedin</span>
           </a>
         </div>
       </div>

@@ -12,7 +12,7 @@ export function Navbar() {
           </NavItem>
         </li>
         <li>
-          <NavItem to="#" navbar>
+          <NavItem to="projetos" navbar>
             Projetos
           </NavItem>
         </li>
@@ -23,7 +23,7 @@ export function Navbar() {
         </li>
         <li>
           <NavItem to="#" navbar>
-            Sobre
+            Contato
           </NavItem>
         </li>
       </ul>

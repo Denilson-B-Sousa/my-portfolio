@@ -6,7 +6,7 @@ export function Project() {
   const { data, isFetching } = useProjectData();
 
   return (
-    <section className="mx-auto lg:max-w-6xl xl:max-w-7xl my-12 space-y-6 pt-12">
+    <section className="mx-auto lg:max-w-6xl xl:max-w-7xl my-12 space-y-6">
       <div className="text-center" id="projects">
         <span className="text-green-900 text-base font-MontSerrat font-light line uppercase tracking-widest">
           Projetos
